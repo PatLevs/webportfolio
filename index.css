@@ -1,10 +1,16 @@
 * {
 	font-weight: normal;
-	    font-family: "Raleway"
+	font-family: "Raleway";
+
+
 }
 
+
+
+
 .right-nav {
-	margin-top: 1rem;
+
+	margin-top: 1.5rem;
 	text-align: Left;
 	padding-right: 10%;
 
@@ -18,19 +24,13 @@
 }
 
 
-nav .nav, nav .nav-logo{
+nav .nav, nav{
 
 	margin: 0.5 rem;
 	display: inline;
 
 }
 
-.nav-logo {
-
-	float: left;
-	padding-left: 100px;
-
-}
 
 #about-me {
 	margin-top: 5rem;
@@ -39,10 +39,91 @@ nav .nav, nav .nav-logo{
 
 #home {
 	padding-top: 5rem;
+	background-image: url(./img/bg.jpg);
+	padding-bottom: 8rem;
 }
 #about-me-header {
 	padding-top: 5rem;
 }
 html {
 	scroll-behavior: smooth;
+}
+
+li {
+	list-style: none;
+	font-size: 20px;
+	margin-right: 40px;
+}
+
+#link-to-project {
+	margin-right: 30px;
+}
+
+
+
+#projects {
+	margin-top: 2rem;
+	padding-top: 5rem;
+}
+
+#contact {
+	margin-top: 10rem;
+	background-image: url(./img/bg.jpg);
+}
+.contact-form-container{
+		padding:4rem;
+		margin-top:6rem;
+		max-width:50rem;
+		text-align:left;
+		width:95%;
+		border-radius:5px;
+		margin:5rem auto 0 auto}
+
+.contact-form-container
+{
+	padding:3rem
+}
+
+.contact-form-field{
+	margin-bottom:4rem
+}
+.contact-form-field {
+	margin-bottom:3rem
+}
+
+.contact-form-label {
+	font-size:1.4rem;
+	letter-spacing:1px;
+	font-weight:bold;
+	margin-bottom:1rem;
+	display:block;
+	text-align:left; 
+	margin-top: 5rem;
+}
+
+.contact-form-input{
+	padding:2rem;
+	width:100%;
+	border:1px solid;
+	font-size:1.6rem;
+	letter-spacing:0;
+	border-radius:5px;
+
+}
+.main-footer {
+	background: black;
+
+	}
+
+.main-footer-icon{
+	margin-right:.5rem;
+	width:2.5rem
+}
+
+.button-contact {
+	padding-top: 1rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-bottom: 1rem;
+
 }
