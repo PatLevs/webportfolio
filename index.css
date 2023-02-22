@@ -1,0 +1,48 @@
+* {
+	font-weight: normal;
+	    font-family: "Raleway"
+}
+
+.right-nav {
+	margin-top: 1rem;
+	text-align: Left;
+	padding-right: 10%;
+
+	padding-bottom: 20px;
+}
+
+.nav {
+	margin-right: 10px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+
+nav .nav, nav .nav-logo{
+
+	margin: 0.5 rem;
+	display: inline;
+
+}
+
+.nav-logo {
+
+	float: left;
+	padding-left: 100px;
+
+}
+
+#about-me {
+	margin-top: 5rem;
+	margin-bottom: 10rem;
+}
+
+#home {
+	padding-top: 5rem;
+}
+#about-me-header {
+	padding-top: 5rem;
+}
+html {
+	scroll-behavior: smooth;
+}
