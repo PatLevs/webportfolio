@@ -67,6 +67,7 @@ li {
 }
 
 #contact {
+	padding-top: .5rem;
 	margin-top: 10rem;
 	background-image: url(./img/bg.jpg);
 }
